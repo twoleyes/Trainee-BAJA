@@ -87,15 +87,15 @@ void loop() {
   */
 
   //Printa o valor X do acelerômetro na serial
-  Serial.print("Acelerômetro X = "); 
+  Serial.print("Acelerômetros: "); 
   Serial.print(acelX);
  
   //Printa o valor Y do acelerômetro na serial
-  Serial.print(" \tY = "); 
+  Serial.print(" \t "); 
   Serial.print(acelY);
    
   //Printa o valor Z do acelerômetro na serial
-  Serial.print(" \tZ = "); 
+  Serial.print(" \t "); 
   Serial.println(acelZ);
 
   //Printa o valor X do giroscópio na serial
