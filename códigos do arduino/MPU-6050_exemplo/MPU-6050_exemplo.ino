@@ -88,15 +88,15 @@ void loop() {
 
   //Printa o valor X do acelerômetro na serial
   Serial.print("Acelerômetro X = "); 
-  Serial.print(acelX/2048);
+  Serial.print(acelX);
  
   //Printa o valor Y do acelerômetro na serial
   Serial.print(" \tY = "); 
-  Serial.print(acelY/2048);
+  Serial.print(acelY);
    
   //Printa o valor Z do acelerômetro na serial
   Serial.print(" \tZ = "); 
-  Serial.println(acelZ/2048);
+  Serial.println(acelZ);
 
   //Printa o valor X do giroscópio na serial
   //  Serial.print("Giroscópio X = "); 
